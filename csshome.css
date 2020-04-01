@@ -1,0 +1,250 @@
+
+
+ body{
+
+		background-image: url(mountain5.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		font-family: sans-serif;
+		color: white;
+		background-attachment: fixed;
+		margin: 0px;
+		width:100%;
+		overflow-x: hidden;	
+	
+
+	}
+
+	video{
+		position: absolute;
+		height: auto;
+		width: 100%;
+		z-index: -1;
+	}
+
+	.register{
+
+		position: absolute;
+		left:510px;
+		top:370px; 
+		margin: 0px auto;
+		z-index: 1;
+
+	}
+
+	.header{
+
+		width: 100%;
+		background-color: rgba(0,0,0,0.3);
+	
+		}
+
+
+	.header a{
+
+    	color: black;
+    	text-align: center;
+  		padding: 20px ;
+    	text-decoration: none;
+    	font-size: 18px; 
+    	line-height:20px;
+    	border-style: none;
+		right: 40px;
+
+	}
+	.header a:hover{
+
+		background-color:  rgb(142, 202, 239) ;
+		color: rgb(204, 219, 230);
+		
+	}
+	.header a.active{
+
+		color: white;
+		background-color: rgb(20, 152, 229);
+		border-bottom: black 3px solid;
+
+	}
+	.header a.logo:hover {
+  
+   		background-color: transparent;
+   		text-decoration: none;
+}
+
+	.header-right{
+
+		float: right;
+		padding-right: 5%;
+		padding-top:40px;
+		margin-right: 50px;
+	}
+
+	.header-right a:hover{
+
+		border-bottom: black 3px solid;
+
+	}
+
+	.header a.log{
+
+		color: black;
+		background-color: transparent;
+	}
+	.header a.log:hover{
+
+		color: black;
+		background-color: white;
+		border-bottom: black 3px solid;
+	}
+
+	.hello{
+
+		top: 230px;
+		left:350px;
+		color: white;
+		background-color: rgba(20, 121, 236,0.3);
+		width: 50%;
+		margin: auto;
+		padding: 5px;
+		font-family: cursive;
+		text-align: center;
+		min-height: 120px;
+
+	}
+
+	
+	.sform{
+
+		text-align: justify;
+		background-image: url(mountain5blur.jpg);
+		background-color: white;
+		width: 31%;
+		margin: 0 auto;
+
+
+	}
+
+	.sform h1{
+		color: black;
+		text-align: center;
+	}
+
+	.sform p{
+		color: black;
+		margin-left: 20px;: 
+	}
+
+	 .sform input[type=submit]{
+
+	 	border-style: none;
+	 	line-height: 30px;
+	 	width: 60px;
+
+	 }
+	 
+	 [type=submit]:hover{
+
+	 	border-style: none;
+	 	background-color:  rgb(142, 202, 239) ;
+		color: rgb(204, 219, 230);	 	
+		
+	 }
+	 .sform input[type=text],input[type=password],input[type=email],input[type=tel]{
+
+	 	text-align: center;
+	 	background-color: transparent;
+	 	border-style: none;
+	 	outline: none;
+	 	border-bottom: 1px solid blue;
+
+	 }
+
+	 input::placeholder{
+
+	 	color: blue;
+	 }
+	.about{
+
+
+		font-family: cursive;
+		width:100%;
+		color: white;
+		background-color: rgba(20, 121, 236,0.3);
+		text-align: center;
+		padding: 10px;
+
+	}
+
+
+	.myteam{
+		margin: auto;
+		width: 80%;
+		padding: 50px;
+		background-color: rgba(20, 121, 236,0.3);
+		display: inline-block;
+	}
+
+	.myteam pre{
+
+		padding-top: 20px;
+		text-align: justify;
+		color: black;
+	}
+
+	.myteam img{
+
+		float:right;
+		width: 250px;
+		height: 250px;
+		
+	}
+
+	.footer{
+
+		bottom:0px;
+		width: 100%;
+		border-top: 2px solid black;  
+		color: black;
+		background-color: rgba(0,0,0,0.3);
+
+	}
+	.footer nav {
+
+		margin-right: 10px;
+
+	}
+
+
+
+	.footer nav ul li{
+
+		float: right;
+		padding: 5px;
+		display: inline-block;
+
+
+	}
+
+	.portfolio{
+	
+		width: 80%;
+		margin: 0px auto; 
+		background-color: rgba(20, 121, 236,0.2);
+		text-align: center;
+
+
+	}
+
+	.resume{
+
+		position: absolute;
+		top: 150px;
+		left:390px;
+		height: 600px;
+		z-index: -1;
+
+    }
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
